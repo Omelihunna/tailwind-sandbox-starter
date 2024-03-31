@@ -5,26 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+            fontFamily: {
+              sans: ["ui-sans-serif", "system-ui"],
+              serif: ["ui-serif", "georgia"],
+              mono: ["ui-monospace", "SFMono-Regular"]
+            }
+        }
+      }
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <div class="font-sans">Taiwind na beta something</div>
+    <div class="font-serif">Taiwind na beta something</div>
+    <div class="font-mono">Taiwind na beta something</div>
 
     <!-- Font Size -->
+    <div class="text-xs">Extra small text.</div>
+    <div class="text-sm">Small text.</div>
+    <div class="text-base">Base text.</div>
+    <div class="text-lg">Large text.</div>
+    <div class="text-xl">Extra Large Text</div>
+    <div class="text-1xl">Extra Large Text</div>
+    <div class="text-2xl">Extra Large Text</div>
+    <div class="text-3xl">Extra Large Text</div>
 
     <!-- Font Weight -->
+    <div class="font-light">Base text.</div>
+    <div class="font-normal">Base text.</div>
+    <div class="font-medium">Base text.</div>
+    <div class="font-semibold">Base text.</div>
+    <div class="font-bold">Base text.</div>
 
     <!-- Letter Spacing -->
+    <div class="tracking-tight">Tight letter spacing.</div>
+    <div class="tracking-normal">Normal letter spacing.</div>
+    <div class="tracking-wide">Wide letter spacing.</div>
 
     <!-- Text Alignment -->
 
     <!-- Text Decoration -->
+    <div class="text-left">Tailwind na beta something</div>
+    <div class="text-center">Tailwind na beta something</div>
+    <div class="text-right">Tailwind na beta something</div>
 
     <!-- Decoration Style -->
+    <div class="underline decoration-4 decoration-blue-400">
+      Tailwind na beta something
+    </div>
+    <div class="underline decoration-double">Tailwind na beta something</div>
+    <div class="underline decoration-dotted">Tailwind na beta something</div>
+    <div class="underline decoration-dashed">Tailwind na beta something</div>
+    <div class="underline decoration-wavy">Tailwind na beta something</div>
 
     <!-- Decoration Offset -->
+    <div class="underline decoration-4 decoration-blue-400">
+      Tailwind na beta something
+    </div>
 
     <!-- Text Transform -->
+    <p class="normal-case">Tailwind na beta something</p>
+    <p class="uppercase">Tailwind na beta something</p>
+    <p class="lowercase">Tailwind na beta something</p>
+    <p class="capitalise">Tailwind na beta something</p>
   </body>
 </html>
 
